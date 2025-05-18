@@ -1,0 +1,57 @@
+PATIENT MEDICAL RECORD
+
+Patient Information:
+Name: John Doe
+DOB: 1980-05-15
+Patient ID: P12345
+
+Current Medications:
+1. Lisinopril 10mg - Take once daily for blood pressure
+2. Metformin 500mg - Take twice daily with meals for type 2 diabetes
+3. Atorvastatin 20mg - Take once daily at bedtime for cholesterol
+4. Aspirin 81mg - Take once daily for heart health
+
+Recent Lab Results (2024-02-15):
+- Blood Pressure: 130/85 mmHg
+- A1C: 6.8%
+- LDL Cholesterol: 95 mg/dL
+- HDL Cholesterol: 45 mg/dL
+- Triglycerides: 150 mg/dL
+
+Upcoming Appointments:
+1. Annual Physical - March 20, 2024 at 10:00 AM with Dr. Smith
+2. Diabetes Follow-up - April 5, 2024 at 2:30 PM with Dr. Johnson
+3. Blood Work - March 25, 2024 at 9:00 AM at City Lab
+
+Medical History:
+- Type 2 Diabetes (diagnosed 2018)
+- Hypertension (diagnosed 2019)
+- High Cholesterol (diagnosed 2020)
+
+Allergies:
+- Penicillin
+- Sulfa drugs
+
+Family History:
+- Father: Heart disease, diabetes
+- Mother: Hypertension
+- Brother: High cholesterol
+
+Lifestyle Notes:
+- Non-smoker
+- Occasional alcohol consumption
+- Regular exercise (30 minutes, 3 times per week)
+- Following Mediterranean diet
+
+Recent Changes:
+- Started new blood pressure medication (Lisinopril) on 2024-01-15
+- Increased Metformin dosage on 2024-02-01
+- Added daily aspirin on 2024-02-15
+
+Follow-up Instructions:
+1. Monitor blood pressure daily
+2. Check blood sugar before meals and at bedtime
+3. Schedule follow-up appointment in 3 months
+4. Continue current medication regimen
+5. Maintain current exercise routine
+6. Follow up with nutritionist regarding diet plan 
