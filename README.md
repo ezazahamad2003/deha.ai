@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter)
+Your Name - [@your_twitter](https://x.com/Zaz_Labs)
 
 Project Link: [https://github.com/ezazahamad2003/deha-ai](https://github.com/ezazahamad2003/deha-ai)
 
