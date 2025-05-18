@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deha AI - Medical Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Deha AI</h1>
+        <p>Upload your medical document and chat with our AI assistant.</p>
+        
+        <div class="upload-section" id="uploadSection">
+            <div class="drop-zone" id="dropZone">
+                <div class="upload-icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <p>Click or drag and drop your PDF here</p>
+                <input type="file" id="pdfUpload" accept=".pdf" style="display: none;" />
+            </div>
+             <div id="uploadStatus" class="upload-success"></div>
+        </div>
+        
+        <div class="voice-call-section" id="voiceCallSection">
+            <!-- Voice call UI will be added here by JavaScript -->
+        </div>
+
+        <div class="chat-section">
+            <div id="chatMessages" class="chat-messages"></div>
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Type your message here..." disabled />
+                <button id="sendBtn" disabled>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

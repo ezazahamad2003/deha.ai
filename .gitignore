@@ -1,9 +1,27 @@
 # Environment variables and secrets
 .env
-*.env
 .env.*
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 secrets.json
 credentials.json
+*_key.json
+*_keys.json
+*_token.json
+*_tokens.json
+*_key
+*_keys
+*_token
+*_tokens
+*_secret
+*_secrets
+*_password
+*_passwords
+*_credential
+*_credentials
 
 # Python
 __pycache__/
@@ -26,23 +44,137 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# Virtual Environment
+MANIFEST
+.python-version
 venv/
-env/
 ENV/
+env/
 .venv/
 .env/
+.ENV/
 
-# IDE specific files
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn-integrity
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.next/
+out/
+build/
+dist/
+coverage/
+
+# IDEs and editors
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
 .DS_Store
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
 
-# Project specific
-*.pdf
-data/
+# Logs
 logs/
-*.log 
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Database
+*.sqlite3
+*.db
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Pinecone specific
+pinecone_index/
+vector_store/
+embeddings/
+
+# Medical records and sensitive data
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+medical_records/
+patient_data/
+uploads/
+temp/
+raw_data/
+processed_data/
+
+# API keys and tokens
+*_key
+*_keys
+*_token
+*_tokens
+*_secret
+*_secrets
+*_password
+*_passwords
+*_credential
+*_credentials
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini 
