@@ -1,20 +1,26 @@
 import PyPDF2
 
-def load_pdf_text(path: str) -> str:
+def load_pdf_text(file_path):
     """
-    Read the entire PDF and return its text content as a single string.
+    Load and extract text from a PDF file.
     
     Args:
-        path (str): The path to the PDF file.
-    
+        file_path (str): Path to the PDF file
+        
     Returns:
-        str: The extracted text from the PDF.
+        str: Extracted text from the PDF
     """
-    text = ""
-    with open(path, "rb") as f:
-        reader = PyPDF2.PdfReader(f)
-        for page in reader.pages:
-            page_text = page.extract_text()
-            if page_text:
-                text += page_text + "\n"
-    return text
+    try:
+        with open(file_path, 'rb') as file:
+            # Create a PDF reader object
+            pdf_reader = PyPDF2.PdfReader(file)
+            
+            # Extract text from all pages
+            text = ""
+            for page in pdf_reader.pages:
+                text += page.extract_text()
+                
+            return text
+    except Exception as e:
+        print(f"Error loading PDF: {e}")
+        return None
